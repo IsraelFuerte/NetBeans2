@@ -26,5 +26,8 @@ public class Practica3 {
         int v=t.indexOf("i", 5, 150);
         System.out.println(v+" = i ");
         
+        boolean w=t.contains("diaria");
+        System.out.println("diaria esta en la frace? "+w);
+        
     }
 }
